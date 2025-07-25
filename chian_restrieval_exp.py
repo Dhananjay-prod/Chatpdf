@@ -23,10 +23,10 @@ from langchain.chains.qa_with_sources import load_qa_with_sources_chain
 
 if __name__ == '__main__':
     
-    pine_cone_key = "f0747c5c-6b61-47ac-98f7-f29b80082137"
+    pine_cone_key = "your_api_key"
     openai_api_key = None
-    cohere_key = "QPtICb2wn4oXHSUiOn6QnEb2Oda5KbdIXBlswZPs"
-    huggin_face_api = "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"
+    cohere_key = "your_api_key"
+    huggin_face_api = "your_api_key"
     
     template = """
     Your job is give relavant data according to the file given when a query is presented.
