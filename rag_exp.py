@@ -35,11 +35,11 @@ def get_pdf_text(pdf_docs):
 
 if __name__ == '__main__':
     
-    os.environ["COHERE_API_KEY"] = 'QPtICb2wn4oXHSUiOn6QnEb2Oda5KbdIXBlswZPs'
-    pineconekey = "f0747c5c-6b61-47ac-98f7-f29b80082137"
+    os.environ["COHERE_API_KEY"] = 'your_api_key'
+    pineconekey = "your_api_key"
     openai_api_key = None
-    cohere_key = "QPtICb2wn4oXHSUiOn6QnEb2Oda5KbdIXBlswZPs"
-    huggin_face_api = "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"
+    cohere_key = "your_api_key"
+    huggin_face_api = "your_api_key"
     Your_text_data = get_pdf_text("Attention is all you need.pdf")
     raw_text = Your_text_data
     
